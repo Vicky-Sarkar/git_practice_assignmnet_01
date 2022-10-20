@@ -3,15 +3,15 @@
 
 
 let str = "civic";
-let bag = "";
-for (i = str.length - 1; i >= 0; i++) {
-
-	bag += str1[j]
-
+let N=str.length-1
+for(let i =0;i<=N/2; i++) {
+     if(str[i]!=str[N-1-i]){
+	 console.log("Yes")
+        break;
+     }else{
+	     console.log("No")
+       
+         break;
+     }
 }
 
-if (str1 == bag) {
-	consoile.logi(str, "Is a palidrome word")
-} else {
-	consoile.logi(str1, "Is not a palidrome Word")
-}
